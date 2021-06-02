@@ -10966,12 +10966,27 @@ html {
   padding: 1.25rem 2.5rem;
 }
 
+.ylw {
+  background-color: #cfbd42;
+}
+
+.iconsize {
+  font-size: 5rem;
+}
+
+.skills-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.skill {
+  padding-right: 2.5rem;
+}
+
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 5rem 0;
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
@@ -11040,6 +11055,13 @@ footer.footer .social-link:hover {
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
   }
+}
+
+#portfolio {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/waves.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .portfolio-item {

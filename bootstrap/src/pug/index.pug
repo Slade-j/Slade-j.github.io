@@ -25,6 +25,9 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        //Devicon
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css")
+
     body#page-top
 
         // Navigation
@@ -73,16 +76,6 @@ html(lang='en')
 
                         a.btn.btn-dark.btn-xl(href='#services') Recent Projects
 
-
-        // Callout
-        section.callout
-            .container.px-4.px-lg-5.text-center
-                h2.mx-auto.mb-5
-                    | Welcome to
-                    em your
-                    | next website!
-                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Download Now!
-
         // Portfolio
         section#portfolio.content-section
             .container.px-4.px-lg-5
@@ -118,6 +111,35 @@ html(lang='en')
                                     .h2 Workspace
                                     p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
                             img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
+
+        // Callout
+        section.callout
+            .container.px-4.px-lg-5.text-center
+                h2.mx-auto.mb-5
+                    em Skills
+                ul.skills-list
+                    li.skill
+                        i.devicon-javascript-plain.colored.iconsize
+                    li.skill
+                        i.devicon-react-original-wordmark.colored.iconsize
+                    li.skill
+                        i.devicon-redux-original.colored.iconsize
+                    li.skill
+                        i.devicon-python-plain.colored.iconsize
+                    li.skill
+                        i.devicon-express-original-wordmark.colored.iconsize
+                ul.skills-list
+                    li.skill
+                        i.devicon-flask-original-wordmark.colored.iconsize
+                    li.skill
+                        i.devicon-github-original.colored.iconsize
+                    li.skill
+                        i.devicon-html5-plain.colored.iconsize
+                    li.skill
+                        i.devicon-css3-plain.colored.iconsize
+                    li.skill
+                        i.devicon-postgresql-plain-wordmark.colored.iconsize
+                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Contact Information.
 
         // Call to Action
         section.content-section.bg-primary.text-white

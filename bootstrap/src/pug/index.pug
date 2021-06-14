@@ -36,17 +36,17 @@ html(lang='en')
         nav#sidebar-wrapper
             ul.sidebar-nav
                 li.sidebar-brand
-                    a(href='#page-top') Start Bootstrap
+                    a(href='#page-top') Navigation
                 li.sidebar-nav-item
                     a(href='#page-top') Home
                 li.sidebar-nav-item
                     a(href='#about') About
                 li.sidebar-nav-item
-                    a(href='#services') Services
-                li.sidebar-nav-item
                     a(href='#portfolio') Portfolio
                 li.sidebar-nav-item
-                    a(href='#contact') Contact
+                    a(href='#skills') Skills
+                li.sidebar-nav-item
+                    a(href='#footer') Contact
 
         // Header
         header.masthead.d-flex.align-items-center
@@ -54,7 +54,7 @@ html(lang='en')
                 h1.mb-1 Jason Slade
                 h3.mb-5
                     em | fullstack web developer |
-                a.btn.btn-dark.btn-xl(href='#about') Find Out More
+                a.btn.btn-dark.btn-xl.buttonHover(href='#about') Find Out More
 
         // About
         section#about.content-section.bg-light
@@ -74,7 +74,7 @@ html(lang='en')
 
 
 
-                        a.btn.btn-dark.btn-xl(href='#services') Recent Projects
+                        a.btn.btn-dark.btn-xl.buttonHover(href='#portfolio') Recent Projects
 
         // Portfolio
         section#portfolio.content-section
@@ -108,12 +108,12 @@ html(lang='en')
                         a.portfolio-item(href='#!')
                             .caption
                                 .caption-content
-                                    .h2 tickr
-                                    p.mb-0 A simple photography exhibition app clone of flickr!
-                            img.img-fluid(src='assets/img/tickr.png', alt='...')
+                                    .h2 Comming Soon!!
+                                    p.mb-0 Comming soon: A simple photography exhibition app clone of flickr!
+                            img.img-fluid(src='assets/img/coming-soon.png', alt='...')
 
         // Callout
-        section.callout
+        section#skills.callout
             .container.px-4.px-lg-5.text-center
                 h2.mx-auto.mb-5
                     em Skills
@@ -139,34 +139,19 @@ html(lang='en')
                         i.devicon-css3-plain.colored.iconsize
                     li.skill
                         i.devicon-postgresql-plain-wordmark.colored.iconsize
-                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Contact Information.
-
-        // Call to Action
-        section.content-section.bg-primary.text-white
-            .container.px-4.px-lg-5.text-center
-                h2.mb-4 The buttons below are impossible to resist...
-                a.btn.btn-xl.btn-light.me-4(href='#!') Click Me!
-                a.btn.btn-xl.btn-dark(href='#!') Look at Me!
-
-        // Map
-        #contact.map
-            iframe(src='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed')
-            br
-            small
-                a(href='https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A')
 
         // Footer
-        footer.footer.text-center
+        footer#footer.footer.text-center.footerBackground
             .container.px-4.px-lg-5
                 ul.list-inline.mb-5
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-facebook
+                        a.social-link.rounded-circle.text-white.mr-3(href='https://www.linkedin.com/in/jason-slade-976a59205/' target="_blank" rel="noopener noreferrer")
+                            i.fab.fa-linkedin-in
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white.mr-3(href='#!')
-                            i.icon-social-twitter
+                        a.social-link.rounded-circle.text-white.mr-3(href='mailto: jason.slade906@gmail.com' target="_blank" rel="noopener noreferrer")
+                            i.fas.fa-envelope
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white(href='#!')
+                        a.social-link.rounded-circle.text-white(href='https://github.com/Slade-j' target="_blank" rel="noopener noreferrer")
                             i.icon-social-github
                 p.text-muted.small.mb-0 Copyright &copy; Your Website 2021
 

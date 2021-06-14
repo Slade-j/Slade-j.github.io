@@ -1,6 +1,6 @@
-// 
+//
 // Global
-// 
+//
 
 body,
 html {
@@ -59,4 +59,8 @@ html {
     i {
         font-weight: 800;
     }
+}
+
+.buttonHover:hover {
+    background-color: darken(#212529, 10%);
 }

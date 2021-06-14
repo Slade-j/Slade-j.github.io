@@ -1,6 +1,6 @@
-// 
+//
 // Footer
-// 
+//
 
 footer.footer {
     padding-top: 5rem;
@@ -13,13 +13,17 @@ footer.footer {
         width: 4rem;
         line-height: 4.3rem;
         font-size: 1.5rem;
-        background-color: $primary;
+        background-color: #212529;
         transition: background-color 0.15s ease-in-out;
         box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 
         &:hover {
-            background-color: darken($primary, 10%);
+            background-color: darken(#212529, 10%);
             text-decoration: none;
         }
     }
+}
+
+.footerBackground {
+    background-color: #d6d7d8;
 }
